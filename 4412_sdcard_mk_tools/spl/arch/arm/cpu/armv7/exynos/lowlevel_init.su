@@ -1,0 +1,2 @@
+lowlevel_init.c:170:6:test_uart	0	static
+lowlevel_init.c:201:5:do_lowlevel_init	8	static

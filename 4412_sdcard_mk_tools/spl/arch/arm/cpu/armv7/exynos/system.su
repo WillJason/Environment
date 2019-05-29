@@ -1,0 +1,2 @@
+system.c:27:6:set_usbhost_mode	0	static
+system.c:67:6:set_system_display_ctrl	8	static

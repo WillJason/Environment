@@ -1,0 +1,5 @@
+spl_boot.c:42:7:get_irom_func	0	static
+spl_boot.c:183:6:copy_uboot_to_ram	8	static
+spl_boot.c:263:6:memzero	0	static
+spl_boot.c:288:6:board_init_f	208	static
+spl_boot.c:309:6:board_init_r	0	static

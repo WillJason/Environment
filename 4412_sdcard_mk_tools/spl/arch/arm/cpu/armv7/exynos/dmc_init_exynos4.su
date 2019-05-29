@@ -1,0 +1,2 @@
+dmc_init_exynos4.c:170:13:dmc_init	24	static
+dmc_init_exynos4.c:242:6:mem_ctrl_init	8	static

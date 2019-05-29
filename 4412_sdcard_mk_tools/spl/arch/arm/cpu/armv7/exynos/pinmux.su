@@ -1,0 +1,3 @@
+pinmux.c:383:6:exynos5_spi_config	16	static
+pinmux.c:417:6:exynos5420_spi_config	16	static
+pinmux.c:849:5:exynos_pinmux_config	32	static
