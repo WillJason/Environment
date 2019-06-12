@@ -1,0 +1,23 @@
+该文档用于制作用于sd卡启动的4412-uboot。
+
+1.可以将该目录所有文件（包括子文件夹内文件）拷贝到解压好的uboot根目录下，也可以将编译好的u-boot.bin文件拷贝到该目录下
+2.若在uboot根目录下则需要修改build.sh中6~10行的编译uboot相关的指令（去掉注释并根据需要修改配置），否则将编译好的u-boot.bin文件拷贝到该目录下不需要做任何改动。build.sh自动生成u-boot-iTOP-4412.bin。
+3.将sd卡通过读卡器链接到pc机ubuntu，df -l查看设备节点，然后执行./mkuboot /dev/sdb(根据自己情况修改)，完成后拔下sd卡即可，制作完成。
+
+This document is used to make 4412-uboot for SD card startup.
+
+
+1. You can copy all files in the directory (including files in subfolders) into the decompressed uboot root directory, or you can compile the u-
+
+Copy boot. bin file to this directory
+
+2. If you are in the uboot root directory, you need to modify the instructions related to compiling uboot in 6-10 lines of build.sh (remove the comments and modify the allocation as needed).
+
+Otherwise, the compiled u-boot.bin file will be copied to the directory without any changes. Build.sh automatically generates u-boot-
+
+ITOP-4412.bin.
+
+3. Link the SD card to the PC Ubuntu through the card reader, check the device node by df-l, then execute. / mkuboot / dev / SDB (according to your own situation)
+
+Modification of the situation), after the completion of the SD card can be unplugged, the production is completed.
+
